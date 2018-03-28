@@ -4,7 +4,7 @@
 #include <string.h>
 
 // LCD Address
-#define ADDRESS 0x27
+#define ADDRESS 0x3F
 
 // commands
 #define LCD_CLEARDISPLAY 0x01
@@ -49,7 +49,7 @@
 #define LCD_NOBACKLIGHT 0x00
 
 // 变量定义
-int LCDAddr = 0x27;
+int LCDAddr = 0x3F;
 int BLEN = 1;
 int fd;
 
